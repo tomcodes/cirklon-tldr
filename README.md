@@ -12,7 +12,7 @@
 
 ### Create a new song
 
-> Hold Shift + SONG then press according encoder
+> Hold SHIFT + SONG then press according encoder
 
 ----
 
@@ -165,6 +165,12 @@ The sculpt feature allows you to use knobs A and B to continuously edit the valu
 ----
 
 ## Configuring the Aux Rows
+
+TODO
+
+----
+
+## CK patterns
 
 TODO
 
