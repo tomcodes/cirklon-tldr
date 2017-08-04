@@ -107,6 +107,7 @@ Bar encoder will be red when Bar follow is ON.
 ### Bar edit
 
 > Click Bar
+
 > Turn ROW encoder to chose BAR edit row
 
 * **XPOSE** - transpose bar
