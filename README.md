@@ -14,6 +14,8 @@
 
 > Hold Shift + SONG then press according encoder
 
+----
+
 ## Track page
 
 ### Assign an instrument
@@ -57,27 +59,87 @@ be lit at half brightness.
 * Press ENTER to list / create patterns associated with the current track
 * Or press SHIFT + ENTER to list patterns associated with all tracks
 
+----
+
 ## Pattern page
 
 By default, only patterns used for the current track are listed.
 
-### P3 patterns
+To list all patterns:
+> SHIFT + ENTER to bring up the selection list
+
+### Pattern types
+
+#### P3 patterns
 
 Good for mono synth, arp etc.
+
+#### CK pattern
+
+Polyphonic, drums etc.
+
+### Pattern edit
+
+### Set pattern length
+
+> LAST + Bar encoder
+
+Then use Bar encoder to choose bar.
+
+### Bar follow
+
+> Click Bar and rotate
+
+Bar encoder will be red when Bar follow is ON.
+
+### Bar copy
+
+> Hold the COPY key, then press the step key for the bar you wish to copy the current bar into
+
+### Bar Extend and Copy
+
+> Hold COPY, then press a step key to select a destination bar which is beyond the current last bar of the pattern
+
+### Set last step
+
+> LAST + Step key (LAST key is double-click sticky)
+
+### Bar edit
+
+> Click Bar
+> Turn ROW encoder to chose BAR edit row
+
+* **XPOSE** - transpose bar
+* **REPS** - number of repetitions
+* **GBAR** (0 or 1) - global sync option ; When active, the bar will be reset to its first step every time the global bar loops
+
+### Bar loops
+
+> SHIFT + press two of the step keys in turn, to set the first and last bars of the loop section
+
+### Steps copy / insert
+
+**Copy steps**
+
+> COPY key
+> Press the first step of the section to be copied
+> Then press the last step of the section to be copied
+
+You can use BAR encoder to move to another bar
+
+**Paste steps**
+
+> INSERT
+> Use VALUE encoder to filter what values should be pasted
+
+
+----
 
 ### Gang
 
 ### Slope
 
 > 
-
-### CK pattern
-
-Polyphonic, drums etc.
-
-#### List all patterns
-
-> SHIFT + ENTER to bring up the selection list
 
 ### Fill patern
 
@@ -100,6 +162,8 @@ key - fill patterns play only while the FILL key is held
 bar - fill patterns play until the end of the next global bar
 scene - fill patterns play for the rest of the current scene
 
+----
+
 ## Navigation
 
 ### Switch current track
@@ -119,6 +183,8 @@ In SONG, SCENE and TRACK mode:
 * ENTER to save
 * MENU to exit without saving
 
+----
+
 ## Global configuration
 
 ### Tempo
@@ -134,8 +200,6 @@ In SONG, SCENE and TRACK mode:
 * When a song has a stored tempo, the label [SONG] will appear below the value.
 * You can remove the stored value by pressing the DELETE key while the tempo value is edited.
 
-
 ### Using more than 16 tracks
 
 Can have up to 16, 32, 48, or 64 tracks.
-
