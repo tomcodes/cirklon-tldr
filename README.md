@@ -133,6 +133,40 @@ You can use BAR encoder to move to another bar
 > INSERT
 > Use VALUE encoder to filter what values should be pasted
 
+To insert the selected values into the pattern, press the step key where the first step in the clip should be written.
+
+The full length of the clip will over-write each step from that point on.
+
+If the end of the pattern is reached before the full clip has been inserted, insertion will wrap to the start of the pattern and continue.
+
+When copying steps to the clipboard, if you select a last step before the first step, the selected steps are copied to the clipboard in reverse order. Small sections, or the pattern can be reversed in this way.
+
+----
+
+## Sculpting and randomizing
+
+The sculpt feature allows you to use knobs A and B to continuously edit the values of a pattern as it plays.
+
+### Enable sculpt
+
+> SHIFT + SCULPT
+
+> SCULPT + A/B rotation
+
+### Sculpt modes
+
+> Press VALUE then select
+
+* **Sculpt ABS** - the position of knob A will over-write the value in each playing step.
+* **Sculpt REL** - the position of knob A will adjust the stored value by a relative amount. This can be a positive or negative offset, with zero effect at the mid-position of the knob.. If you hold SCULPT as the pattern repeats, each step will move incrementally further from its original value.
+* **Random ABS**  - each playing step value will be over-written with a value randomly chosen from the range of values set by knobs A and B. It doesn’t matter whether knob A or B is greater.
+* **Rndom REL** - each step is adjusted by a random offset, again in the range between knobs A and B. Multiple passes will cause a cumulative change to the stored values.
+
+----
+
+## Configuring the Aux Rows
+
+TODO
 
 ----
 
@@ -204,3 +238,11 @@ In SONG, SCENE and TRACK mode:
 ### Using more than 16 tracks
 
 Can have up to 16, 32, 48, or 64 tracks.
+
+----
+
+## Other
+
+### Audition
+
+This is useful feature if you are editing a P3 pattern while playback is stopped. If you hold a step encoder, then press the step key below it, the note value on that step will be sent to the assigned instrument, so you can confirm the note selection by ear.
