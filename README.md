@@ -82,9 +82,13 @@ Polyphonic, drums etc.
 
 ### Set pattern length
 
-> LAST + Bar encoder
+> LAST + BAR encoder
 
 Then use Bar encoder to choose bar.
+
+### Pattern pan
+
+> SHIFT + BAR encoder
 
 ### Bar follow
 
