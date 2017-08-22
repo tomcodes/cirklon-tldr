@@ -145,6 +145,39 @@ If the end of the pattern is reached before the full clip has been inserted, ins
 
 When copying steps to the clipboard, if you select a last step before the first step, the selected steps are copied to the clipboard in reverse order. Small sections, or the pattern can be reversed in this way.
 
+### Fill patterns
+
+Fill patterns can only be triggered in SONG, SCENE or TRACK pages.
+
+#### Display fill options
+
+> SHIFT + FILL
+
+The track numbers for each track in the current bank are shown along the bottom of the display, with a block above.
+Tracks which have a fill pattern assigned will have a filled-in block.
+The vertical position of each block on the four lines, labelled auto, active, mute or no fill shows the fill mode for that track. Change the mode by turning the encoder above each track key.
+
+**Fill modes for each track**
+
+* *auto* - the fill pattern will play if the track is active (un-muted)
+* *active* - the fill pattern will always play
+* *mute* - the track will be muted during a fill-on
+* *no fill* - the track will ignore the fill-in
+
+**Release modes (global)**
+
+* *key* - fill patterns play only while the FILL key is held
+* *bar* - fill patterns play until the end of the next global bar
+* *scene* - fill patterns play for the rest of the current scene
+
+----
+
+## Scene page
+
+* Workscene is a temporary holding area for the values and pattern assignments that make
+up a scene.
+* You begin each new song in the workscene, since there will not yet be any saved scenes.
+
 ----
 
 ## Sculpting and randomizing
