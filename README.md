@@ -1,6 +1,6 @@
 # Cirklon tl;dr
 
-**Table of Contents**
+**[Table of Contents](http://tableofcontent.eu/)**
 - [Cirklon tl;dr](#cirklon-tldr)
   - [Song page](#song-page)
     - [Change default song behavior](#change-default-song-behavior)
