@@ -14,6 +14,12 @@
 
 > Hold SHIFT + SONG then press according encoder
 
+### Manual scene
+
+A manual scene allows you to have a point in a song where the patterns of a scene will repeat indefinitely until you manually advance to the next scene.
+
+> NEXT + SCENE to manually advance
+
 ----
 
 ## Track page
@@ -177,6 +183,79 @@ The vertical position of each block on the four lines, labelled auto, active, mu
 * Workscene is a temporary holding area for the values and pattern assignments that make
 up a scene.
 * You begin each new song in the workscene, since there will not yet be any saved scenes.
+* As you save the workscene to real scenes, you will remain in the workscene.
+* Each save will store the current state of the workscene as a new scene at the end of the scene list.
+* Workscene cannot be renamed.
+
+### Scene page description
+
+#### Gbar
+
+This is the global bar length - the length of one bar in the scene, in 16th note steps.
+
+In song play mode, it is used along with the length value to control how long a scene will play for before advancing to the next scene.
+
+#### Leng(th)
+
+The scene length is the number of bars (of Gbar steps) the scene will play for before advancing to the next scene in song play mode (1-200).
+
+**The current scene length is also used as the default length when creating new patterns.**
+
+#### Song Adv(ance)
+
+This option controls whether or not the scene will advance to the next scene while in song play mode.
+
+#### FTS (Force To Scale)
+
+With Force to Scale (FTS) active, all notes played will be forced into the chosen scale (or key signature).
+
+#### Xpose
+
+All patterns will be transposed by the selected value, unless the instrument option “No Xpose” is enabled, or the X-flag is set on some pattern steps.
+
+### Saving a scene
+
+> SAVE when on the scene page then chose a name
+
+Once a number of scenes have been added, you can switch to song play mode by switching to the SONG page, or manually enabling song play.
+
+Whenever you enter song play mode while in the workscene, at the end of the next global bar, the first scene of the song will be loaded and the pattern assignments and initial active/mute status of the tracks for the scene recalled.
+
+### Mute hold
+
+> SHIFT + SCENE
+
+* *OFF* - mute settings are always recalled
+* *Next* - for the next scene to be recalled, the current mute status will be preserved, then mute hold will revert to OFF
+* *LOCK* - for all scenes recalled, the current mute status will carry over
+
+### Scene list
+
+The number to the right of the scene name shows the length of the scene, except for the scene currently playing. For the current scene, the value counts down, to show how many bars will play before the scene loops (or advances, if song mode is enabled). A scene set to manual advance will show a letter ‘m’ next to the length/count number.
+
+> SCENE key from the scene page
+
+> Double SCENE key from any other page
+
+Show scene options / actions
+
+> Turn value encoder to chose scene, then click MENU key
+
+#### Scene move
+
+TODO
+
+#### Scene loops
+
+TODO
+
+#### Recall / Copy To Workscene
+
+TODO
+
+#### Delete a scene
+
+TODO
 
 ----
 
