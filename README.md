@@ -137,15 +137,17 @@ By default, only patterns used for the current track are listed.
 To list all patterns:
 > SHIFT + ENTER to bring up the selection list
 
-### Pattern types
-
-#### P3 patterns
+### P3 patterns
 
 Good for mono synth, arp etc.
 
-#### CK pattern
+blabla
+
+### CK pattern
 
 Polyphonic, drums etc.
+
+blabla
 
 ### Pattern edit
 
