@@ -300,6 +300,15 @@ Track control values:
 
 ### Track mixer page
 
+Quick access to the MIDI volume and pan controls for every track in the current bank.
+
+> SHIFT + TRACK from the TRACK page
+> Turn ROW encoder to switch from volume and pan controls
+
+To remove a value:
+
+> DELETE + Press track encoder
+
 ----
 
 ## Scene page
@@ -400,7 +409,7 @@ The sculpt feature allows you to use knobs A and B to continuously edit the valu
 * **Sculpt ABS** - the position of knob A will over-write the value in each playing step.
 * **Sculpt REL** - the position of knob A will adjust the stored value by a relative amount. This can be a positive or negative offset, with zero effect at the mid-position of the knob.. If you hold SCULPT as the pattern repeats, each step will move incrementally further from its original value.
 * **Random ABS**  - each playing step value will be over-written with a value randomly chosen from the range of values set by knobs A and B. It doesn’t matter whether knob A or B is greater.
-* **Rndom REL** - each step is adjusted by a random offset, again in the range between knobs A and B. Multiple passes will cause a cumulative change to the stored values.
+* **Random REL** - each step is adjusted by a random offset, again in the range between knobs A and B. Multiple passes will cause a cumulative change to the stored values.
 
 ----
 
