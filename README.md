@@ -241,6 +241,67 @@ The vertical position of each block on the four lines, labelled auto, active, mu
 
 ----
 
+## Track values
+
+* List track values by hitting TRACK while on the TRACK page
+* 16 slots are available for each track (use SHIFT + ROW to see them all)
+* **Track midi values** - controls instruments by sending midi messages
+* **Track control values** - internal settings that dynamically alter pattern playback
+
+### Adding a track midi value
+
+> Hit INSERT 
+> Select the type of value (Midi CC, track ctrl...)
+> Choose proper CC
+> SAVE
+> Turn encoder 6 to send CC values
+
+To add another track midi value:
+
+> Press encoder 7
+> INSERT
+> Chose CC agian
+> INSERT to edit the label
+> ENTER
+> SAVE
+
+### Assigning Knobs A & B
+
+> SHIFT + encoder click
+> Turn know A or B to assign
+
+### Saving Track Values
+
+> SAVE on the track values page
+> Chose where to save
+
+> DELETE to delete a saved value
+
+Deleting saved values works incrementally; if a saved value has been EDITed, the first press of DELETE will revert to the saved setting. A further press of DELETE will then remove the saved setting.
+
+Deleted settings saved at the SCENE level require the SCENE to be re-saved to make their removal permanent.
+
+### Track Control Values
+
+Allows to change program (pgm).
+
+Track control values:
+
+* **quant%** - applies real-time, variable quantisation to CK patterns (0-100%)
+* **note%** - transposes notes as a proportion of the interval between the note and a centre note (0-255%)
+* **noteC** - sets the center note for the note% scaling control (C0-GX (G10))
+* **velo%** - adjusts velocity values as a proportion of the distance from a centre velocity value (0-255%)
+* **veloC** - sets the centre velocity value for velo% (1-127)
+* **leng%** - scales the lenghts of notes (0-2000%)
+* **tbase** - sets the spacing for the grid used by the quant% value (as tbase)
+* **octave** - transposes notes by octaves (-4 to +4)
+* **knob1** - the knob1 value used for knob mask and grab events in P3 patterns (0-127)
+* **knob2** - the knob2 value used for knob mask and grab events in P3 patterns (0-127)
+
+### Track mixer page
+
+----
+
 ## Scene page
 
 * Workscene is a temporary holding area for the values and pattern assignments that make
