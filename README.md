@@ -181,13 +181,20 @@ Bar encoder will be red when Bar follow is ON.
 
 ### Bar edit
 
-> Click Bar
+> Click BAR
 
 > Turn ROW encoder to chose BAR edit row
 
 * **XPOSE** - transpose bar
 * **REPS** - number of repetitions
 * **GBAR** (0 or 1) - global sync option ; When active, the bar will be reset to its first step every time the global bar loops
+
+### Bar copy
+
+> Go on the source bar and click BAR (to enter bar edit mode)
+> Hold COPY and press step 2
+
+Your first bar is copied to the second bar, and the bar length of the pattern set to 2.
 
 ### Bar loops
 
