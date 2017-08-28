@@ -157,6 +157,10 @@ blabla
 
 Then use Bar encoder to choose bar.
 
+Or...
+
+> REC and then MENU, turn stepencoder below "bar length" (display encoder 6); you see this option in the rec menu, when pressing rec
+
 ### Pattern pan
 
 > SHIFT + BAR encoder
