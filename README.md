@@ -83,10 +83,15 @@ To list all patterns:
 #### Gang
 
 > Hold GANG + click step ENCODERS to add ganged notes
+
 > Click GANG to disable gang
+
 > SHIFT + GANG to invert gang selection
+
 > DELETE + GANG to delete gang
+
 > GANG + hold step encoder + hold another step encoder repeats the 
+
 > GAND + hold 2 adjacent step encoders gangs evety step
 
 #### Slope
@@ -138,6 +143,7 @@ Bar encoder will be red when Bar follow is ON.
 #### Bar copy
 
 > Go on the source bar and click BAR (to enter bar edit mode)
+
 > Hold COPY and press step 2
 
 Your first bar is copied to the second bar, and the bar length of the pattern set to 2.
@@ -151,7 +157,9 @@ Your first bar is copied to the second bar, and the bar length of the pattern se
 **Copy steps**
 
 > COPY key
+
 > Press the first step of the section to be copied
+
 > Then press the last step of the section to be copied
 
 You can use BAR encoder to move to another bar
@@ -159,6 +167,7 @@ You can use BAR encoder to move to another bar
 **Paste steps**
 
 > INSERT
+
 > Use VALUE encoder to filter what values should be pasted
 
 To insert the selected values into the pattern, press the step key where the first step in the clip should be written.
@@ -206,28 +215,39 @@ The vertical position of each block on the four lines, labelled auto, active, mu
 ### Adding a track midi value
 
 > Hit INSERT 
+
 > Select the type of value (Midi CC, track ctrl...)
+
 > Choose proper CC
+
 > SAVE
+
 > Turn encoder 6 to send CC values
 
 To add another track midi value:
 
 > Press encoder 7
+
 > INSERT
+
 > Chose CC agian
+
 > INSERT to edit the label
+
 > ENTER
+
 > SAVE
 
 ### Assigning Knobs A & B
 
 > SHIFT + encoder click
+
 > Turn know A or B to assign
 
 ### Saving Track Values
 
 > SAVE on the track values page
+
 > Chose where to save
 
 > DELETE to delete a saved value
@@ -258,6 +278,7 @@ Track control values:
 Quick access to the MIDI volume and pan controls for every track in the current bank.
 
 > SHIFT + TRACK from the TRACK page
+
 > Turn ROW encoder to switch from volume and pan controls
 
 To remove a value:
