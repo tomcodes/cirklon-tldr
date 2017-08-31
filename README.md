@@ -88,7 +88,7 @@ To list all patterns:
 
 > SHIFT + GANG to invert gang selection
 
-> DELETE + GANG to delete gang
+> DELETE + GANG to delete gang (GANG + DELETE has the same effect - careful though as CK patterns work differently)
 
 > GANG + hold step encoder + hold another step encoder repeats the 
 
