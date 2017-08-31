@@ -132,26 +132,18 @@ be lit at half brightness.
 
 ## Pattern page
 
+**P3 patterns** are good for mono synth, arp etc.
+
+**CK pattern** are good for polyphony, drums etc.
+
 By default, only patterns used for the current track are listed.
 
 To list all patterns:
 > SHIFT + ENTER to bring up the selection list
 
-### P3 patterns
+### P3 Pattern
 
-Good for mono synth, arp etc.
-
-blabla
-
-### CK pattern
-
-Polyphonic, drums etc.
-
-blabla
-
-### Pattern edit
-
-### Set pattern length
+#### Set pattern length
 
 > LAST + BAR encoder
 
@@ -161,29 +153,29 @@ Or...
 
 > REC and then MENU, turn stepencoder below "bar length" (display encoder 6); you see this option in the rec menu, when pressing rec
 
-### Pattern pan
+#### Pattern pan
 
 > SHIFT + BAR encoder
 
-### Bar follow
+#### Bar follow
 
 > Click Bar and rotate
 
 Bar encoder will be red when Bar follow is ON.
 
-### Bar copy
+#### Bar copy
 
 > Hold the COPY key, then press the step key for the bar you wish to copy the current bar into
 
-### Bar Extend and Copy
+#### Bar Extend and Copy
 
 > Hold COPY, then press a step key to select a destination bar which is beyond the current last bar of the pattern
 
-### Set last step
+#### Set last step
 
 > LAST + Step key (LAST key is double-click sticky)
 
-### Bar edit
+#### Bar edit
 
 > Click BAR
 
@@ -193,18 +185,18 @@ Bar encoder will be red when Bar follow is ON.
 * **REPS** - number of repetitions
 * **GBAR** (0 or 1) - global sync option ; When active, the bar will be reset to its first step every time the global bar loops
 
-### Bar copy
+#### Bar copy
 
 > Go on the source bar and click BAR (to enter bar edit mode)
 > Hold COPY and press step 2
 
 Your first bar is copied to the second bar, and the bar length of the pattern set to 2.
 
-### Bar loops
+#### Bar loops
 
 > SHIFT + press two of the step keys in turn, to set the first and last bars of the loop section
 
-### Steps copy / insert
+#### Steps copy / insert
 
 **Copy steps**
 
@@ -227,11 +219,11 @@ If the end of the pattern is reached before the full clip has been inserted, ins
 
 When copying steps to the clipboard, if you select a last step before the first step, the selected steps are copied to the clipboard in reverse order. Small sections, or the pattern can be reversed in this way.
 
-### Fill patterns
+#### Fill patterns
 
 Fill patterns can only be triggered in SONG, SCENE or TRACK pages.
 
-#### Display fill options
+##### Display fill options
 
 > SHIFT + FILL
 
@@ -438,11 +430,18 @@ TODO
 
 ----
 
-### Gang
+### P3 Gang
+
+> Hold GANG + click step ENCODERS to add ganged notes
+> Click GANG to disable gang
+> SHIFT + GANG to invert gang selection
+> DELETE + GANG to delete gang
+> GANG + hold step encoder + hold another step encoder repeats the 
+> GAND + hold 2 adjacent step encoders gangs evety step
 
 ### Slope
 
-> 
+> Hold first step encoder + adjust value of encoder
 
 ### Fill patern
 
