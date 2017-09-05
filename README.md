@@ -96,7 +96,7 @@ To list all patterns:
 
 #### Slope
 
-> Hold first step encoder + adjust value of encoder
+> Hold first step encoder + adjust value of other encoder
 
 #### Set pattern length
 
