@@ -427,7 +427,7 @@ In SONG, SCENE and TRACK mode:
 
 ## Naming things
 
-> TIP: * When naming a pattern, press solo/skip key to generate a name/string
+> TIP: * When naming a pattern, press solo/skip key to generate a random name/string
 
 * Move around with VALUE encoder
 * DELETE to delete char before cursor
