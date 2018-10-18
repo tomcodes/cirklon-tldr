@@ -427,6 +427,8 @@ In SONG, SCENE and TRACK mode:
 
 ## Naming things
 
+> TIP: * When naming a pattern, press solo/skip key to generate a name/string
+
 * Move around with VALUE encoder
 * DELETE to delete char before cursor
 * Hold SHIFT to enter upper case letters
@@ -434,6 +436,7 @@ In SONG, SCENE and TRACK mode:
 * INSERT toggles between new char / over-write
 * ENTER to save
 * MENU to exit without saving
+
 
 ----
 
